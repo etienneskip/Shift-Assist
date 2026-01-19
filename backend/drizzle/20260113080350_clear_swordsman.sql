@@ -1,0 +1,1 @@
+ALTER TABLE "user" ADD COLUMN "onesignal_player_id" text;

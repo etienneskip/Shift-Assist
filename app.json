@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Shift Assist",
+    "slug": "Shift Assist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/natively-dark.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/natively-dark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.Natively",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/natively-dark.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.Natively"
+    },
+    "web": {
+      "favicon": "./assets/images/final_quest_240x240.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/natively-dark.png",
+          "color": "#000000",
+          "sounds": [],
+          "mode": "production"
+        }
+      ]
+    ],
+    "scheme": "natively",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "backendUrl": "https://gemvwbnnsvbmxyqhxrry8udv8c5q77ms.app.specular.dev",
+      "supabaseUrl": "https://iyqkiccrneurfpxkkick.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml5cWtpY2NybmV1cmZweGtraWNrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgyNzM0ODQsImV4cCI6MjA4Mzg0OTQ4NH0.ueTlxT_O6_cytmF2U7fWdwXiHliIQb9cRHmxeFALaXk",
+      "googleMapsApiKey": "AIzaSyCJDCcDT8rTxlemSBGimt9o5KJDg8OSRAQ",
+      "whisperApiEndpoint": "https://gemvwbnnsvbmxyqhxrry8udv8c5q77ms.app.specular.dev/api/speech-to-text",
+      "googleMapsAutocompleteEndpoint": "https://gemvwbnnsvbmxyqhxrry8udv8c5q77ms.app.specular.dev/api/maps/autocomplete",
+      "googleMapsGeocodeEndpoint": "https://gemvwbnnsvbmxyqhxrry8udv8c5q77ms.app.specular.dev/api/maps/geocode",
+      "pushNotificationRegisterEndpoint": "https://gemvwbnnsvbmxyqhxrry8udv8c5q77ms.app.specular.dev/api/push-notifications/register",
+      "pushNotificationSendEndpoint": "https://gemvwbnnsvbmxyqhxrry8udv8c5q77ms.app.specular.dev/api/push-notifications/send"
+    }
+  },
+  "scheme": "Shift Assist"
+}
